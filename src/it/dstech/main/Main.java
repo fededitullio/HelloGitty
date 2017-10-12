@@ -1,6 +1,7 @@
 package it.dstech.main;
 
 import java.time.*;
+import java.time.zone.*;
 
 public class Main {
 public static void main(String[] args) {
@@ -11,5 +12,6 @@ public static void main(String[] args) {
 	
 	LocalDateTime dataTime = LocalDateTime.now();
 	System.out.println(dataTime);
+	System.out.println(ZoneId.getAvailableZoneIds());
 }
 }
