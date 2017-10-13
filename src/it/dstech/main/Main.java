@@ -14,5 +14,6 @@ public static void main(String[] args) {
 	LocalDateTime dataTime = LocalDateTime.now();
 	System.out.println(dataTime);
 	System.out.println(ZoneId.getAvailableZoneIds());
+	System.out.println("culo");
 }
 }
