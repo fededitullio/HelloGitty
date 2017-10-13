@@ -9,6 +9,7 @@ public static void main(String[] args) {
 	System.out.println("FUCK THE POLICE");
 	System.out.println("Finalmente edito anche io");
 	System.out.println("ho finto pure io di editare eeh!");
+	System.out.println("Eccomi ! Scusate per il ritardo...");
 	
 	LocalDateTime dataTime = LocalDateTime.now();
 	System.out.println(dataTime);
